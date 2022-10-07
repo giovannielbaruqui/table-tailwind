@@ -1,8 +1,8 @@
 <template>
   <div class="shadow-xl m-10">
-    <table class="text-sm w-full rounded-xl">
+    <table class="text-sm w-full rounded-xl ">
       <thead>
-        <tr class="shadow border text-sm bg-gray-100">
+        <tr class="shadow text-sm bg-gray-100 border rounded-xl">
           <th class="border-b font-medium pt-3 pb-3 text-left pl-5">Name</th>
           <th class="border-b font-medium pt-3 pb-3 text-left">Title</th>
           <th class="border-b font-medium pt-3 pb-3 text-left">Email</th>
@@ -12,14 +12,14 @@
       </thead>
       <tbody>
         <tr class="border-b">
-          <td class="font-sans pl-5 py-5">
+          <td class="font-sans pl-5 py-5 ">
             <div class="flex items-center space-x-2">
               <img class="flex-none w-8 h-8 rounded-full object-cover" src="public\foto.jpeg">
               <span>Lindisay Wilson</span>
             </div>
           </td>
           <td class="text-slate-500 font-sans py-5 ">Front-End Developer</td>
-          <td class="text-slate-500 py-5">lindsay.walton@example.com</td>
+          <td class="text-slate-500 py-5 ">lindsay.walton@example.com</td>
           <td class="text-slate-500 py-5">
             <div class="flex">
               <span class="flex bg-green-100 rounded-full text-green-800 text-xs px-2 py-1 leading-none ">Admin</span>
@@ -51,10 +51,10 @@
             </div>
           </td>
           <td class="text-slate-500 font-sans py-5 ">Front-End Developer</td>
-          <td class="text-slate-500 py-5">lindsay.walton@example.com</td>
+          <td class="text-slate-500 py-5 ">lindsay.walton@example.com</td>
           <td class="text-slate-500 py-5">
             <div class="flex">
-              <span class="flex bg-green-100 rounded-full text-green-800 text-xs px-2 py-1 leading-none ">Admin</span>
+              <span class="flex bg-yellow-100 rounded-full text-yellow-800 text-xs px-2 py-1 leading-none ">Member</span>
             </div>
           </td>
           <td class="border-r border-gray-200 text-slate-500 py-5">
@@ -86,7 +86,7 @@
           <td class="text-slate-500 py-5">lindsay.walton@example.com</td>
           <td class="text-slate-500 py-5">
             <div class="flex">
-              <span class="flex bg-green-100 rounded-full text-green-800 text-xs px-2 py-1 leading-none ">Admin</span>
+              <span class="bg-green-100 rounded-full text-green-800 text-xs px-2 py-1 leading-none hidden">Admin</span>
             </div>
           </td>
           <td class="border-r border-gray-200 text-slate-500 py-5">
